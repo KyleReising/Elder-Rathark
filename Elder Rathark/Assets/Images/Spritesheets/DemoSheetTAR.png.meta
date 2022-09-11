@@ -1,0 +1,733 @@
+fileFormatVersion: 2
+guid: 98a8ee83ab519314a883ed02bf97c654
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7044221486088331684
+    second: DemoSheetTAR_0
+  - first:
+      213: 2235529385163180430
+    second: DemoSheetTAR_1
+  - first:
+      213: -989198656822530700
+    second: DemoSheetTAR_2
+  - first:
+      213: -206994433463009830
+    second: DemoSheetTAR_3
+  - first:
+      213: 7383231265757408081
+    second: DemoSheetTAR_4
+  - first:
+      213: -2043712189836508123
+    second: DemoSheetTAR_5
+  - first:
+      213: -2946283021521394892
+    second: DemoSheetTAR_6
+  - first:
+      213: -7303089439137289453
+    second: DemoSheetTAR_7
+  - first:
+      213: 3190312537589367239
+    second: DemoSheetTAR_8
+  - first:
+      213: 1146153821137381490
+    second: DemoSheetTAR_9
+  - first:
+      213: -7028840249857931306
+    second: DemoSheetTAR_10
+  - first:
+      213: 294345578870769838
+    second: DemoSheetTAR_11
+  - first:
+      213: -339826445954364247
+    second: DemoSheetTAR_12
+  - first:
+      213: -5114551796571664388
+    second: DemoSheetTAR_13
+  - first:
+      213: -2021556295159890248
+    second: DemoSheetTAR_14
+  - first:
+      213: 6134537257721116538
+    second: DemoSheetTAR_15
+  - first:
+      213: 7312436893185657276
+    second: DemoSheetTAR_16
+  - first:
+      213: -5523777208079721306
+    second: DemoSheetTAR_17
+  - first:
+      213: 4979725392719214548
+    second: DemoSheetTAR_18
+  - first:
+      213: 6312749010286169564
+    second: DemoSheetTAR_19
+  - first:
+      213: -1710918748310902537
+    second: DemoSheetTAR_20
+  - first:
+      213: -4415449578325148301
+    second: DemoSheetTAR_21
+  - first:
+      213: 7168822457660599971
+    second: DemoSheetTAR_22
+  - first:
+      213: -7079065684715613028
+    second: DemoSheetTAR_23
+  - first:
+      213: -375309337697813618
+    second: DemoSheetTAR_24
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DemoSheetTAR_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1796
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ed78a51e5ed3e90800000000000000
+      internalID: -7044221486088331684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1796
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e894997a122360f10800000000000000
+      internalID: 2235529385163180430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_2
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1796
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dacc70019a542f0800000000000000
+      internalID: -989198656822530700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1796
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add34f2d8ab902df0800000000000000
+      internalID: -206994433463009830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_4
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1796
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b270ad7b1867660800000000000000
+      internalID: 7383231265757408081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1347
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524c8a5679643a3e0800000000000000
+      internalID: -2043712189836508123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_6
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1347
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433e376b333bc17d0800000000000000
+      internalID: -2946283021521394892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_7
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1347
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ba05939d636aa90800000000000000
+      internalID: -7303089439137289453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_8
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1347
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c14d759954464c20800000000000000
+      internalID: 3190312537589367239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_9
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1347
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278a9d6e3d4f7ef00800000000000000
+      internalID: 1146153821137381490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 898
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7004c780b847e90800000000000000
+      internalID: -7028840249857931306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_11
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 898
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea88cc59eb9b51400800000000000000
+      internalID: 294345578870769838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_12
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 898
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac4b9bd5a1b84bf0800000000000000
+      internalID: -339826445954364247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_13
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 898
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff82043d367509b0800000000000000
+      internalID: -5114551796571664388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_14
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 898
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be3a8d924df1f3e0800000000000000
+      internalID: -2021556295159890248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 449
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77bddb3221422550800000000000000
+      internalID: 6134537257721116538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_16
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 449
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9cac48c9efa7560800000000000000
+      internalID: 7312436893185657276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_17
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 449
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac520e35e99753b0800000000000000
+      internalID: -5523777208079721306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_18
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 449
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d775086cd98b1540800000000000000
+      internalID: 4979725392719214548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_19
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 449
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd4e4a47c36b9750800000000000000
+      internalID: 6312749010286169564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f86f5796789148e0800000000000000
+      internalID: -1710918748310902537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_21
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37df748a00c29b2c0800000000000000
+      internalID: -4415449578325148301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_22
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aee3be0b06cc7360800000000000000
+      internalID: 7168822457660599971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_23
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c945ed8244b12cd90800000000000000
+      internalID: -7079065684715613028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemoSheetTAR_24
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 368
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b72a55522aacaf0800000000000000
+      internalID: -375309337697813618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
