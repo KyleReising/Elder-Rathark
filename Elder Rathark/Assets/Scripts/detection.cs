@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class detection : MonoBehaviour
 {
-    [SerializeField] private LayerMask layermask;
+    //[SerializeField] private LayerMask layermask;
     private Mesh mesh;
-    public Transform pos;
     private Vector3 origin = Vector3.zero;
     private float startingAngle;
     private float fov;
+    private bool hittingPlayer = false;
 
     //helper function
     Vector3 GetVectorFromAngle(float angle) 
@@ -37,6 +37,7 @@ public class detection : MonoBehaviour
 
     private void LateUpdate()
     {
+        hittingPlayer = false;
         int rayCount = 50;
         float angle = startingAngle;
         float angleIncrease = fov / rayCount;
@@ -53,11 +54,17 @@ public class detection : MonoBehaviour
         for (int i = 0; i <= rayCount; i++)
         {
             Vector3 vertex;
-            RaycastHit2D raycasthit2d = Physics2D.Raycast(origin, GetVectorFromAngle(angle), viewDistance, layermask);
+            RaycastHit2D raycasthit2d = Physics2D.Raycast(origin, GetVectorFromAngle(angle), viewDistance);//, layermask);
             if (raycasthit2d.collider == null)
             { vertex = origin + GetVectorFromAngle(angle) * viewDistance; }
             else
-            { vertex = raycasthit2d.point; }
+            { 
+                vertex = raycasthit2d.point;
+                if(raycasthit2d.rigidbody)
+                {
+                    hittingPlayer = true;
+                }
+            }
         
 
             vertices[vertexIndex] = vertex;
@@ -89,5 +96,8 @@ public class detection : MonoBehaviour
     {
         startingAngle = GetAngleFromVectorFloat(aimDirection) - fov / 2f;
     }
+
+    public bool isHittingPlayer()
+    { return hittingPlayer; }
 
 }

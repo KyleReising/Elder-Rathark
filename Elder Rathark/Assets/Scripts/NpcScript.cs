@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NpcScript : MonoBehaviour
 {
@@ -14,6 +15,12 @@ public class NpcScript : MonoBehaviour
     public float waitTime = 1f;
     private float waitCounter = 0;
     private bool waiting = false;
+
+    //sus meter
+    public float maxSus;
+    private float curSus = 0;
+    public Slider slider;
+    private bool playerDisguiseWorks = false;
     
 
 
@@ -28,6 +35,20 @@ public class NpcScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //calculate sus
+        if(detection.isHittingPlayer())  //hitting player
+        {
+            if (!playerDisguiseWorks)   //wrong disguise
+            {
+                curSus++;
+                slider.value = curSus / maxSus;
+                if (curSus >= maxSus)
+                    print("i found you");   //*************** CHANGE ME TO END GAME ********************
+            }
+        }
+
+        //set view position
+        detection.SetOrigin(transform.position);
 
         //patrol to dynamic waypoints
 
@@ -54,7 +75,7 @@ public class NpcScript : MonoBehaviour
                 Vector3 temp = Vector3.MoveTowards(transform.position, wp.position, speed * Time.deltaTime);
                 transform.position = temp;
                 
-                detection.SetOrigin(transform.position);
+                
             }
             //look at waypoint
             if (wp.position.x > transform.position.x)  //wp to right
