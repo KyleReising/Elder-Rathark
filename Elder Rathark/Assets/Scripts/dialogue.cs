@@ -8,21 +8,31 @@ public class dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
+    bool talking;
 
     private int index;
     // Start is called before the first frame update
     void Start()
     {
+        // Sets to unactive, and sets the string to be empty,
+        // must be set to active before using
+        
         textComponent.text = string.Empty;
-        StartDialogue();
+        gameObject.SetActive(false);
+        talking = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (talking && gameObject.activeSelf)
         {
-            if(textComponent.text == lines[index])
+            StartDialogue();
+        }
+        // Mouse down will either cycle through to the next dialogue, or skip through dialogue
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (textComponent.text == lines[index])
             {
                 NextLine();
             }
@@ -32,6 +42,7 @@ public class dialogue : MonoBehaviour
                 textComponent.text = lines[index];
             }
         }
+        
     }
 
     void StartDialogue()
@@ -60,6 +71,7 @@ public class dialogue : MonoBehaviour
         }
         else
         {
+            talking = false;
             gameObject.SetActive(false);
         }
     }

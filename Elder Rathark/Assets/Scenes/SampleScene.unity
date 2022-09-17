@@ -869,6 +869,7 @@ MonoBehaviour:
   - You are not safe in your own home :)
   - You are safe in your own home :)
   textSpeed: 0.025
+  rend: {fileID: 0}
 --- !u!114 &683287316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -906,7 +907,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 683287313}
-  m_CullTransparentMesh: 1
+  m_CullTransparentMesh: 0
 --- !u!1 &730028238
 GameObject:
   m_ObjectHideFlags: 0
