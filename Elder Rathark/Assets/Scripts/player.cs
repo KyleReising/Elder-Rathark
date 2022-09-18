@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    enum animState { RUN, FIRE, MELEE, HURT, GRAP }
+    public enum Disguise { TRENCH, SUIT };
     /// This will be sent to setAnimation() as a parameter
     /// In there, it'll flip the sprites and figure out which direction to face
     /// 
@@ -15,6 +15,16 @@ public class player : MonoBehaviour
     public float moveSpeed;
     public Camera cam;
 
+    //Max's animation stuff?
+    public Animator trenchcoat;
+    public Animator suit;
+    public SpriteRenderer SR;
+    public SpriteRenderer OtherSR;
+    public Disguise di;
+    public List<Disguise> closet = new List<Disguise>();
+    private int indexInCloset = 0;
+
+
     //talking stuff
     public bool inConvo;
 
@@ -24,13 +34,70 @@ public class player : MonoBehaviour
     {
         
     }
+    void setAnim(string command)
+    {
+        //dont u just love spaghetti
+        if (di == Disguise.TRENCH)
+        {
+            trenchcoat.SetTrigger(command);
+        }
+        else if (di == Disguise.SUIT)
+        {
+            suit.SetTrigger(command);
+        }
+    }
 
     // Update is called once per frame
     void Update()
     {
+        //Change Disguises...
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            indexInCloset++;
+            indexInCloset = indexInCloset % closet.Count;
+            di = closet[indexInCloset];
+           
+        }
+
+        //Check disguise.  Yes, every frame.  Totally necessary.
+        if(di == Disguise.TRENCH)
+        {
+            trenchcoat.gameObject.SetActive(true);
+            suit.gameObject.SetActive(false);
+        }
+        if (di == Disguise.SUIT)
+        {
+            trenchcoat.gameObject.SetActive(false);
+            suit.gameObject.SetActive(true);
+        }
+
         float hAxis = Input.GetAxisRaw("Horizontal");
         float vAxis = Input.GetAxisRaw("Vertical");
         do_input(hAxis, vAxis);
+
+
+
+        if(hAxis > 0.01)
+        {
+            SR.flipX = true;
+            OtherSR.flipX = true;
+            //let our animation know what to do... needs refacotring but on a deadline here
+            setAnim("WALK");
+        }
+        else if (hAxis < -0.01)
+        {
+            SR.flipX = false;
+            OtherSR.flipX = false;
+            setAnim("WALK");
+        }
+        else if(vAxis != 0.0f)
+        {
+            setAnim("WALK");
+        }
+        else if(hAxis == 0.0f && vAxis == 0.0f)
+        {
+            setAnim("IDLE");
+        }
     }
 
     void do_input(float horiz, float vert)

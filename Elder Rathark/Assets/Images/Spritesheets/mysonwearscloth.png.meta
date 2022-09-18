@@ -1,82 +1,79 @@
 fileFormatVersion: 2
-guid: 98a8ee83ab519314a883ed02bf97c654
+guid: 3b2031e0f3f469c4e976e787e4a700c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7044221486088331684
-    second: DemoSheetTAR_0
+      213: -6612959773092492511
+    second: mysonwearscloth_0
   - first:
-      213: 2235529385163180430
-    second: DemoSheetTAR_1
+      213: -5158337098042901619
+    second: mysonwearscloth_1
   - first:
-      213: -989198656822530700
-    second: DemoSheetTAR_2
+      213: -1688032689507985790
+    second: mysonwearscloth_2
   - first:
-      213: -206994433463009830
-    second: DemoSheetTAR_3
+      213: 5077902984571236490
+    second: mysonwearscloth_3
   - first:
-      213: 7383231265757408081
-    second: DemoSheetTAR_4
+      213: -7805331704983866383
+    second: mysonwearscloth_4
   - first:
-      213: -2043712189836508123
-    second: DemoSheetTAR_5
+      213: 8342555003748918704
+    second: mysonwearscloth_5
   - first:
-      213: -2946283021521394892
-    second: DemoSheetTAR_6
+      213: -402636758531209066
+    second: mysonwearscloth_6
   - first:
-      213: -7303089439137289453
-    second: DemoSheetTAR_7
+      213: -4720751554354338412
+    second: mysonwearscloth_7
   - first:
-      213: 3190312537589367239
-    second: DemoSheetTAR_8
+      213: 11241234633748503
+    second: mysonwearscloth_8
   - first:
-      213: 1146153821137381490
-    second: DemoSheetTAR_9
+      213: -2207611577496150437
+    second: mysonwearscloth_9
   - first:
-      213: -7028840249857931306
-    second: DemoSheetTAR_10
+      213: -5174137708707957813
+    second: mysonwearscloth_10
   - first:
-      213: 294345578870769838
-    second: DemoSheetTAR_11
+      213: 2278504543197551726
+    second: mysonwearscloth_11
   - first:
-      213: -339826445954364247
-    second: DemoSheetTAR_12
+      213: 3252045381199786092
+    second: mysonwearscloth_12
   - first:
-      213: -5114551796571664388
-    second: DemoSheetTAR_13
+      213: -2363982618735046008
+    second: mysonwearscloth_13
   - first:
-      213: -2021556295159890248
-    second: DemoSheetTAR_14
+      213: 4108933677280839885
+    second: mysonwearscloth_14
   - first:
-      213: 6134537257721116538
-    second: DemoSheetTAR_15
+      213: 3804505847117347098
+    second: mysonwearscloth_15
   - first:
-      213: 7312436893185657276
-    second: DemoSheetTAR_16
+      213: -3280107556378058558
+    second: mysonwearscloth_16
   - first:
-      213: -5523777208079721306
-    second: DemoSheetTAR_17
+      213: -8357900934435343418
+    second: mysonwearscloth_17
   - first:
-      213: 4979725392719214548
-    second: DemoSheetTAR_18
+      213: -4294390972414860656
+    second: mysonwearscloth_18
   - first:
-      213: 6312749010286169564
-    second: DemoSheetTAR_19
+      213: -8418383229988221613
+    second: mysonwearscloth_19
   - first:
-      213: -1710918748310902537
-    second: DemoSheetTAR_20
+      213: -3854247682441748861
+    second: mysonwearscloth_20
   - first:
-      213: -4415449578325148301
-    second: DemoSheetTAR_21
+      213: -1069189746172460521
+    second: mysonwearscloth_21
   - first:
-      213: 7168822457660599971
-    second: DemoSheetTAR_22
+      213: 1089234437347120400
+    second: mysonwearscloth_22
   - first:
-      213: -7079065684715613028
-    second: DemoSheetTAR_23
-  - first:
-      213: -375309337697813618
-    second: DemoSheetTAR_24
+      213: 5181147679071665779
+    second: mysonwearscloth_23
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -121,7 +118,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 240
+  spritePixelsToUnits: 280
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -191,526 +188,505 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DemoSheetTAR_0
+      name: mysonwearscloth_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1796
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1700
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5ed78a51e5ed3e90800000000000000
-      internalID: -7044221486088331684
+      spriteID: 12bcfd29f1c0a34a0800000000000000
+      internalID: -6612959773092492511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_1
+      name: mysonwearscloth_1
       rect:
         serializedVersion: 2
-        x: 368
-        y: 1796
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 446
+        y: 1700
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e894997a122360f10800000000000000
-      internalID: 2235529385163180430
+      spriteID: d8bfe674db7e968b0800000000000000
+      internalID: -5158337098042901619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_2
+      name: mysonwearscloth_2
       rect:
         serializedVersion: 2
-        x: 736
-        y: 1796
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 892
+        y: 1700
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47dacc70019a542f0800000000000000
-      internalID: -989198656822530700
+      spriteID: 28611a46637e298e0800000000000000
+      internalID: -1688032689507985790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_3
+      name: mysonwearscloth_3
       rect:
         serializedVersion: 2
-        x: 1104
-        y: 1796
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1338
+        y: 1700
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: add34f2d8ab902df0800000000000000
-      internalID: -206994433463009830
+      spriteID: a80b34f4cd5587640800000000000000
+      internalID: 5077902984571236490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_4
+      name: mysonwearscloth_4
       rect:
         serializedVersion: 2
-        x: 1472
-        y: 1796
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1784
+        y: 1700
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15b270ad7b1867660800000000000000
-      internalID: 7383231265757408081
+      spriteID: 1f3b7523b24eda390800000000000000
+      internalID: -7805331704983866383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1347
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 524c8a5679643a3e0800000000000000
-      internalID: -2043712189836508123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DemoSheetTAR_6
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 1347
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 433e376b333bc17d0800000000000000
-      internalID: -2946283021521394892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DemoSheetTAR_7
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 1347
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31ba05939d636aa90800000000000000
-      internalID: -7303089439137289453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DemoSheetTAR_8
-      rect:
-        serializedVersion: 2
-        x: 1104
-        y: 1347
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c14d759954464c20800000000000000
-      internalID: 3190312537589367239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DemoSheetTAR_9
-      rect:
-        serializedVersion: 2
-        x: 1472
-        y: 1347
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 278a9d6e3d4f7ef00800000000000000
-      internalID: 1146153821137381490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DemoSheetTAR_10
+      name: mysonwearscloth_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 898
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1275
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d7004c780b847e90800000000000000
-      internalID: -7028840249857931306
+      spriteID: 0b5ac9d3395b6c370800000000000000
+      internalID: 8342555003748918704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_11
+      name: mysonwearscloth_6
       rect:
         serializedVersion: 2
-        x: 368
-        y: 898
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 446
+        y: 1275
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea88cc59eb9b51400800000000000000
-      internalID: 294345578870769838
+      spriteID: 6988b3a500c896af0800000000000000
+      internalID: -402636758531209066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_12
+      name: mysonwearscloth_7
       rect:
         serializedVersion: 2
-        x: 736
-        y: 898
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 892
+        y: 1275
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ac4b9bd5a1b84bf0800000000000000
-      internalID: -339826445954364247
+      spriteID: 49526d119758c7eb0800000000000000
+      internalID: -4720751554354338412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_13
+      name: mysonwearscloth_8
       rect:
         serializedVersion: 2
-        x: 1104
-        y: 898
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1338
+        y: 1275
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cff82043d367509b0800000000000000
-      internalID: -5114551796571664388
+      spriteID: 7107e25e7dfe72000800000000000000
+      internalID: 11241234633748503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_14
+      name: mysonwearscloth_9
       rect:
         serializedVersion: 2
-        x: 1472
-        y: 898
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1784
+        y: 1275
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8be3a8d924df1f3e0800000000000000
-      internalID: -2021556295159890248
+      spriteID: b5e5d4977fcfc51e0800000000000000
+      internalID: -2207611577496150437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 449
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a77bddb3221422550800000000000000
-      internalID: 6134537257721116538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DemoSheetTAR_16
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 449
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb9cac48c9efa7560800000000000000
-      internalID: 7312436893185657276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DemoSheetTAR_17
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 449
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ac520e35e99753b0800000000000000
-      internalID: -5523777208079721306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DemoSheetTAR_18
-      rect:
-        serializedVersion: 2
-        x: 1104
-        y: 449
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d775086cd98b1540800000000000000
-      internalID: 4979725392719214548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DemoSheetTAR_19
-      rect:
-        serializedVersion: 2
-        x: 1472
-        y: 449
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdd4e4a47c36b9750800000000000000
-      internalID: 6312749010286169564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DemoSheetTAR_20
+      name: mysonwearscloth_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 850
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f86f5796789148e0800000000000000
-      internalID: -1710918748310902537
+      spriteID: bc3328dea25c138b0800000000000000
+      internalID: -5174137708707957813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_21
+      name: mysonwearscloth_11
       rect:
         serializedVersion: 2
-        x: 368
-        y: 0
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 446
+        y: 850
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37df748a00c29b2c0800000000000000
-      internalID: -4415449578325148301
+      spriteID: e6c576c5fcfde9f10800000000000000
+      internalID: 2278504543197551726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_22
+      name: mysonwearscloth_12
       rect:
         serializedVersion: 2
-        x: 736
-        y: 0
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 892
+        y: 850
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3aee3be0b06cc7360800000000000000
-      internalID: 7168822457660599971
+      spriteID: c60fcdb4b06912d20800000000000000
+      internalID: 3252045381199786092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_23
+      name: mysonwearscloth_13
       rect:
         serializedVersion: 2
-        x: 1104
-        y: 0
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1338
+        y: 850
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c945ed8244b12cd90800000000000000
-      internalID: -7079065684715613028
+      spriteID: 882991b4552713fd0800000000000000
+      internalID: -2363982618735046008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemoSheetTAR_24
+      name: mysonwearscloth_14
       rect:
         serializedVersion: 2
-        x: 1472
-        y: 0
-        width: 368
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1784
+        y: 850
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8b72a55522aacaf0800000000000000
-      internalID: -375309337697813618
+      spriteID: dc8c6ffc86dd50930800000000000000
+      internalID: 4108933677280839885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysonwearscloth_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19735b29e15cc430800000000000000
+      internalID: 3804505847117347098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysonwearscloth_16
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 425
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0e2056e87ba72d0800000000000000
+      internalID: -3280107556378058558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysonwearscloth_17
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 425
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c37317d165c20c80800000000000000
+      internalID: -8357900934435343418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysonwearscloth_18
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 425
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092619ac9224764c0800000000000000
+      internalID: -4294390972414860656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysonwearscloth_19
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 425
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d42790e05eb2b80800000000000000
+      internalID: -8418383229988221613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysonwearscloth_20
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38edfab4726f28ac0800000000000000
+      internalID: -3854247682441748861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysonwearscloth_21
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 0
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71286e537997921f0800000000000000
+      internalID: -1069189746172460521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysonwearscloth_22
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 0
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015923323fcbd1f00800000000000000
+      internalID: 1089234437347120400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysonwearscloth_23
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 0
+        width: 446
+        height: 425
+      alignment: 9
+      pivot: {x: 0.596, y: 0.124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ef7ebfc5227e740800000000000000
+      internalID: 5181147679071665779
       vertices: []
       indices: 
       edges: []
