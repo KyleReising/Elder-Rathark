@@ -79,7 +79,7 @@ public class NpcScript : MonoBehaviour
 
 
         //have sprite look at waypoint
-        if (wp.position.x > transform.position.x)  //wp to right
+            if (wp.position.x > transform.position.x)  //wp to right
             {
                 big_cheese.flipX = true;
             }

@@ -15,6 +15,9 @@ public class player : MonoBehaviour
     public float moveSpeed;
     public Camera cam;
 
+    //talking stuff
+    public bool inConvo;
+
 
 
     void Start()
