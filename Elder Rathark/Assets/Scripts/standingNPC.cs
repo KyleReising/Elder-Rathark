@@ -10,6 +10,7 @@ public class standingNPC : MonoBehaviour
     bool inConvo = false;
     public string[] peepo;
     public TextAsset textFile;
+    private string[] lines;
     // Start is called before the first frame update
 
 
@@ -19,7 +20,8 @@ public class standingNPC : MonoBehaviour
     {
         playerPos = player.transform;
         string text = textFile.text;
-        string lines = text.Split("\n");
+        char[] temp = { '\n' };
+        lines = text.Split(temp);
     }
 
     // Update is called once per frame
@@ -32,7 +34,7 @@ public class standingNPC : MonoBehaviour
             dialogue.talking = true;
             dialogue.gameObject.SetActive(true);
             
-            dialogue.setLine(peepo);
+            dialogue.setLine(lines);
             
         }
         
