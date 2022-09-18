@@ -51,41 +51,40 @@ public class NpcScript : MonoBehaviour
         detection.SetOrigin(transform.position);
 
         //patrol to dynamic waypoints
-
-        //chill for a second after reaching a waypoint
-        if (waiting)
+            //chill for a second after reaching a waypoint
+            if (waiting)
             {
                 waitCounter += Time.deltaTime;
                 if (waitCounter < waitTime)
-                    return;
+                    return;    
                 waiting = false;
             }
-            Transform wp = waypoints[waypointIndex];
+            Transform wp = waypoints[waypointIndex];  //set next waypoint
             //reached waypoint
             if (Vector3.Distance(transform.position, wp.position) < 0.01f)
             {
                 transform.position = wp.position;
                 waitCounter = 0f;
                 waiting = true;
-                waypointIndex = (waypointIndex + 1) % waypoints.Length;
-                
+                waypointIndex = (waypointIndex + 1) % waypoints.Length; //set next waypoint
             }
             else  //move to waypoint
             {
                 Vector3 temp = Vector3.MoveTowards(transform.position, wp.position, speed * Time.deltaTime);
                 transform.position = temp;
-                
-                
+                Vector3 bingo = wp.position - transform.position;
+                detection.SetAimDirection(new Vector3(-bingo.y, bingo.x, bingo.z));  // no, i dont know why x and y are flipped
             }
-            //look at waypoint
-            if (wp.position.x > transform.position.x)  //wp to right
+
+
+
+        //have sprite look at waypoint
+        if (wp.position.x > transform.position.x)  //wp to right
             {
-                detection.SetAimDirection(new Vector3(0.0f, 1.0f, 0f));
                 big_cheese.flipX = true;
             }
             else
             {
-                detection.SetAimDirection(new Vector3(0.0f, -1.0f, 0f));
                 big_cheese.flipX = false;
             }
 
