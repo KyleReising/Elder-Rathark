@@ -8,7 +8,8 @@ public class standingNPC : MonoBehaviour
     [SerializeField] private dialogue dialogue;
     [SerializeField] private player player;
     bool inConvo = false;
-    public string[] peepo ;
+    public string[] peepo;
+    public TextAsset textFile;
     // Start is called before the first frame update
 
 
@@ -16,7 +17,9 @@ public class standingNPC : MonoBehaviour
 
     void Start()
     {
-         
+        playerPos = player.transform;
+        string text = textFile.text;
+        string lines = text.Split("\n");
     }
 
     // Update is called once per frame
