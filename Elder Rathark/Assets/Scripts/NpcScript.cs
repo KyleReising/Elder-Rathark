@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class NpcScript : MonoBehaviour
 {
-
+    
     [SerializeField] private detection detection;
+    [SerializeField] private player player;
 
     // pathfinding & patrol
     public Transform[] waypoints;
@@ -21,6 +22,7 @@ public class NpcScript : MonoBehaviour
     private float curSus = 0;
     public Slider slider;
     private bool playerDisguiseWorks = false;
+    public player.Disguise guardType;
     
 
 
@@ -38,7 +40,8 @@ public class NpcScript : MonoBehaviour
         //calculate sus
         if(detection.isHittingPlayer())  //hitting player
         {
-            if (!playerDisguiseWorks)   //wrong disguise
+            
+            if (guardType != player.getDI())   //wrong disguise
             {
                 curSus++;
                 slider.value = curSus / maxSus;

@@ -47,6 +47,11 @@ public class player : MonoBehaviour
         }
     }
 
+    public Disguise getDI()
+    {
+        return di;
+    }
+
     // Update is called once per frame
     void Update()
     {
